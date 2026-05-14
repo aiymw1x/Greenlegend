@@ -29,6 +29,11 @@
 
 By combining hardware robotics (Arduino-based control), advanced computer vision (YOLOv5), and smart navigation algorithms, GreenLegend operates autonomously in complex forest environments without human intervention.
 
+### Gallery
+
+![Hero Image](assets/hero_img.jpeg)
+![Hero Image 2](assets/hero_img2.jpeg)
+
 ---
 
 ## ✨ Key Features
@@ -98,6 +103,12 @@ The hardware subsystem is organized into three main directories:
 - Camera module for vision input
 - Power management systems
 
+#### Planting Operation
+![Planting Mechanism](assets/planting.jpeg)
+
+#### Close-up View
+![Close-up](assets/closeup.jpeg)
+
 ---
 
 ## 🧠 Software Stack
@@ -139,6 +150,13 @@ Greenlegend/
 │
 ├── sbor_mysora/               # Garbage collection system
 │   └── [Arduino control code for collection mechanism]
+│
+├── assets/                    # Project images and media
+│   ├── hero_img.jpeg          # Hero image 1
+│   ├── hero_img2.jpeg         # Hero image 2
+│   ├── planting.jpeg          # Planting mechanism
+│   ├── closeup.jpeg           # Close-up view
+│   └── 2.jpeg                 # Additional project image
 │
 ├── realtime_obstacles.py      # Obstacle detection & navigation
 │   └── Real-time video processing using YOLOv5
