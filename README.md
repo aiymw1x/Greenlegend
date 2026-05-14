@@ -3,7 +3,7 @@ GreenLegend is an integrated robotics project designed to address the critical i
 
 🤖 Hardware Control (Arduino)
 humidity/: Manages soil moisture sensing to ensure seedlings are planted in viable conditions.
-Inkar/: Contains the core logic for the seedling planting mechanism.
+movement/: Contains the core logic for the seedling planting mechanism.
 sbor_mysora/: Handles the mechanical operation of the garbage collection system.
 
 🧠 Computer Vision (Python & YOLOv5)
